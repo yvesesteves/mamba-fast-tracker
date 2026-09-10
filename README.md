@@ -4,12 +4,22 @@ Um aplicativo de controle de jejum intermitente e registro de calorias diárias,
 
 O foco principal desta entrega é a robustez da funcionalidade central (Timer rodando de forma confiável em background) e a persistência correta do estado e dos dados do usuário.
 
-## Como rodar o projeto
+## Como executar o projeto
+
+Você pode testar o aplicativo de duas formas: baixando o arquivo instalável (APK) ou rodando através do código fonte.
+
+### 1. Testar via APK (Versão Final)
+Baixe e instale o aplicativo diretamente no seu dispositivo Android:
+- **Link de Download (Release):** [Mamba Fast Tracker v1.0.0](https://github.com/yvesesteves/mamba-fast-tracker/releases/tag/v1.0.0)
+*(Acesse o link, clique no arquivo `app-release.apk` na seção Assets para baixar e permita a instalação no seu aparelho).*
+
+---
+
+### 2. Rodar via Código Fonte
 
 **Pré-requisitos:**
 - [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado na máquina.
 - Um emulador Android/iOS ou um dispositivo físico conectado (também compatível com testes via navegador Web).
-
 **Passo a passo:**
 1. Clone este repositório:
    ```bash
@@ -101,7 +111,7 @@ Se houvesse mais tempo para evolução deste produto, os próximos passos seriam
 
 ## Tempo gasto no desafio
 
-Aproximadamente 8 horas distribuídas ao longo do prazo estabelecido.
+Aproximadamente 7 horas distribuídas ao longo do prazo estabelecido.
 
 --- 
 
