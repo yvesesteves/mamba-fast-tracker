@@ -13,7 +13,7 @@ O foco principal desta entrega é a robustez da funcionalidade central (Timer ro
 **Passo a passo:**
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/yvesesteves/mamba-fast-tracker.git](https://github.com/yvesesteves/mamba-fast-tracker.git)
+   git clone https://github.com/yvesesteves/mamba-fast-tracker.git
    ```
 
 2. Acesse a pasta do projeto:
@@ -57,6 +57,8 @@ Foi adotada a Clean Architecture guiada por Features (modularização por funcio
 - **Offline-first Nativo:** Todas as ações (autenticação, registro de refeições, metas) funcionam 100% sem internet, utilizando o 'Hive' para persistência instantânea no dispositivo.
 
 - **Dark Mode Padrão:** Para entregar um design moderno, polido e amigável à bateria, o aplicativo foi projetado de forma nativa em modo escuro.
+
+- **CI/CD (GitHub Actions):** Foi configurado um pipeline de integração e entrega contínuas. O build do arquivo APK Android é gerado e disponibilizado automaticamente nas nuvens a cada envio de código, garantindo a automação do processo de release.
 
 ---
 ## Bibliotecas Utilizadas
